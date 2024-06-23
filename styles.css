@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+*{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 47px 0px 163px 42px;
+}
+
+.upbuttons {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    margin-right: 32px;
+    color: #17233D;
+    cursor: pointer;
+}
+
+.Singup{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 1px;
+    background: #6FBF44;
+    width: 124px;
+    height: 51px;
+    top: 32px;
+    left: 420px;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+
+.imglogo{
+    width: 595px;
+    height: 500px;
+    margin-left: 121px;
+    display: inline-block;
+}
+
+section{
+    display: inline-block;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    letter-spacing: 0.5961538553237915px;
+    width: 582px;
+    margin-left: 85px;
+    margin-bottom: 47px;
+}
+
+p{
+    font-weight: 400;
+    width: 493px;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    margin-left: 85px;
+}
+
+.button-main{
+    color: #6FBF44;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 1px;
+    border: none;
+    margin-bottom: 114px;
+    margin-left: 85px;
+}
+
+@media screen and (max-width: 1400px) {
+
+    h1 {
+        width: 278px;
+        text-align: center;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 30px;
+        letter-spacing: 0.596px;
+        margin: 0 auto; /* Centro o elemento h1 */
+    }
+
+    p {
+        width: 304px;
+        text-align: center;
+        font-size: 18px;
+        font-style: normal;
+        letter-spacing: 0.5px;
+        line-height: 33px;
+        margin: 0 auto; /* Centro o elemento p */
+    }
+
+    .button-main {
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 1px;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .imglogo {
+        position: relative;
+        width: 279.921px;
+        height: 268.932px;
+        flex-shrink: 0;
+        margin: -479px auto;
+        left: 55px;
+    }
+
+    .botoes{
+        display: none;
+    }
+    .Singup{
+        position: relative;
+        top: -14px;
+        left: 204px;
+        border-radius: 30px;
+        width: 123px;
+        height: 39px;
+    }
+
+    section{
+        padding: 46px;
+        position: relative;
+        top: -107px;
+    }
+    
+}
